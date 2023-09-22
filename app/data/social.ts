@@ -20,13 +20,13 @@ export const socialLinks = [
     icon: BiLogoGithub,
     status: "social",
   },
-  {
-    id: 2,
-    name: "Twitter",
-    url: "https://twitter.com/victorekea",
-    icon: BiLogoTwitter,
-    status: "social",
-  },
+  // {
+  //   id: 2,
+  //   name: "Twitter",
+  //   url: "https://twitter.com/victorekea",
+  //   icon: BiLogoTwitter,
+  //   status: "social",
+  // },
   {
     id: 3,
     name: "Linkedin",
