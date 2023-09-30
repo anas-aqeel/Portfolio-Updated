@@ -14,12 +14,12 @@ type props = {
 };
 
 export default function SharePost({ title, slug, description }: props) {
-  const blog = encodeURIComponent('https://victoreke.com/blog/');
+  const blog = encodeURIComponent('https://ai-developer.vercel.app/blog/');
   const options = [
     {
       icon: BiLogoTwitter,
       name: "Twitter",
-      shareUrl: `https://twitter.com/intent/tweet?text=${encodeURIComponent('Thank you @victoreke for writing this post.')}.%0A%0A${title}%0A%0A${blog}${slug}`,
+      shareUrl: `https://twitter.com/intent/tweet?text=${encodeURIComponent('Thank you @aqeel47897 for writing this post.')}.%0A%0A${title}%0A%0A${blog}${slug}`,
     },
     {
       icon: BiLogoLinkedinSquare,

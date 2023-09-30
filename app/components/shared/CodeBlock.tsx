@@ -59,7 +59,8 @@ export default function CodeBlock({ value }: codeTypes) {
       <Refractor
         language={value.language ? value.language : "jsx"}
         value={value.code}
-        className="text-sm border-x border-b dark:border-zinc-800 border-zinc-200 rounded-b-lg tracking-normal"
+        
+        className="text-sm  border-x border-b dark:border-zinc-800 border-zinc-200 rounded-b-lg tracking-normal"
       />
     </div>
   );

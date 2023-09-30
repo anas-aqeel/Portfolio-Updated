@@ -18,7 +18,7 @@ const options = {
   title: "Anas Aqeel | Front-End Developer",
   description:
     "Anas Aqeel is a Front-end Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
-  url: "https://victoreke.com",
+  url: "https://ai-developer.vercel.app/",
   ogImage:
     "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
 };

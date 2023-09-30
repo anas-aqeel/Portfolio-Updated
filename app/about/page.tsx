@@ -11,12 +11,12 @@ import { Slide } from "../animation/Slide";
 
 export const metadata: Metadata = {
   title: "About | Anas Aqeel",
-  metadataBase: new URL("https://victoreke.com/about"),
+  metadataBase: new URL("https://ai-developer.vercel.app/about"),
   description:
     "Learn more about my skills, experience and technical background",
   openGraph: {
     title: "About | Anas Aqeel",
-    url: "https://victoreke.com/about",
+    url: "https://ai-developer.vercel.app/about",
     description:
       "Learn more about my skills, experience and technical background",
     images:

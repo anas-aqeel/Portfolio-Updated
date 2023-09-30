@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://victoreke.com"><img src="./public/logo.png" width="60px"></a>
+<a href="https://ai-developer.vercel.app/"><img src="./public/logo.png" width="60px"></a>
 </div>
 
 <div align="center">
@@ -121,8 +121,8 @@ npm run build
 [planetscale]: https://planetscale.com/
 [nexttheme]: https://github.com/pacocoursey/next-themes
 [reactrefractor]: https://github.com/rexxars/react-refractor
-[site]: https://victoreke.com
-[studio]: https://victoreke.com/studio
+[site]: https://ai-developer.vercel.app/
+[studio]: https://ai-developer.vercel.app/studio
 [studio-preview]: ./public/studio.png
 [site-preview]: ./public/site.png
 [env-example]: ./env.example
