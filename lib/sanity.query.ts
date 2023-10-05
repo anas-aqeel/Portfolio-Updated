@@ -98,6 +98,20 @@ export async function getPosts() {
     }`
   );
 }
+export async function getDiaries() {
+  return client.fetch(
+    groq`*[_type == "Diary"] | order(_createdAt desc){
+      ${postField},
+      date,
+      "author": author-> {
+        name, 
+        photo, 
+        twitterUrl
+      },
+      body,
+    }`
+  );
+}
 
 export async function getFeaturedPosts() {
   return client.fetch(
@@ -113,6 +127,26 @@ export async function getSinglePost(slug: string) {
       ${postField},
       _updatedAt,
       canonicalLink,
+      date,
+      tags,
+      "author": author-> {
+        name, 
+        photo {
+          "image": asset->url,
+          alt
+        }, 
+        twitterUrl
+      },
+      body,
+    }`,
+    { slug }
+  );
+}
+export async function getSingleDiary(slug: string) {
+  return client.fetch(
+    groq`*[_type == "Diary" && slug.current == $slug][0]{
+      ${postField},
+      _updatedAt,
       date,
       tags,
       "author": author-> {

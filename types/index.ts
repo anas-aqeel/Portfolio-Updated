@@ -78,6 +78,31 @@ export type PostType = {
   featured: boolean;
   isPublished: boolean;
 };
+export type DiaryType = {
+  _id: string;
+  _createdAt: string;
+  _updatedAt?: string;
+  title: string;
+  slug: string;
+  description: string;
+  date?: string;
+  coverImage: {
+    image: string;
+    lqip: string;
+    alt: string | null;
+  };
+  tags: string[];
+  author: {
+    name: string;
+    photo: {
+      image: string;
+      alt: string;
+    };
+    twitterUrl: string;
+  };
+  body: PortableTextBlock[];
+  isPublished: boolean;
+};
 
 export type HeroeType = {
   _id: string;

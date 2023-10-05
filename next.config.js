@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  env:{
+    NEXT_PUBLIC_SANITY_PROJECT_ID: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  }
+};
 
 module.exports = {
   images: {
@@ -15,4 +19,5 @@ module.exports = {
       { hostname: "images.unsplash.com" },
     ],
   },
+  nextConfig
 };
